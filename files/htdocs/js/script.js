@@ -85,6 +85,7 @@
     $(".main > .main-left > .nav > .slide > .menu").click(function () {
         var ul = $(this).next(".slide-menu");
         var menu = $(this);
+        $(".slide-menu:visible").stop(true).slideUp("fast");
         if (!ul.is(":visible")) {
             menu.addClass("active");
             ul.addClass("active");
