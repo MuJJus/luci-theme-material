@@ -1139,7 +1139,12 @@ header > .container > .pull-right > * {
 .node-status-iptables > .main div > .cbi-map > form {
     margin: 2rem 2rem 0 0;
 }
-
+.node-status-iptables .cbi-map fieldset ul li {
+    margin-top: 1rem !important;
+}
+.node-status-iptables .cbi-map fieldset ul li a {
+    text-decoration: underline;
+}
 /* fix system reboot */
 
 .node-system-reboot > .main > .main-right p,
