@@ -1315,11 +1315,15 @@ header > .container > .pull-right > * {
 .cbi-map fieldset h3 {
  padding:10px 0;
  }
-
 .cbi-map fieldset ul li {
-    margin: 1rem 0 0 0 !important;
+    background:#f7f7f7;
+    margin-right: 0 !important;
 }
-.cbi-map fieldset ul li a {
+.node-status-iptables .cbi-map fieldset ul li {
+    background:#ffffff !important;
+    margin-top: 1rem !important;
+}
+.node-status-iptables .cbi-map fieldset ul li a {
     text-decoration: underline;
 }
 /* fix system reboot */
