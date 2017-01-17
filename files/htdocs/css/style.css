@@ -815,7 +815,6 @@ background: #617486;
 .tabs > li {
     display: inline-block;
     padding: 0.9rem 0rem;
-    border-bottom: 0.18751rem solid rgba(0, 0, 0, 0);
 }
 
 .cbi-tabmenu > li > a,
@@ -824,7 +823,9 @@ background: #617486;
     color: #76838f;
     padding: 0.9rem 1.5rem;
 }
-
+.tabs > li {
+    border-bottom: 0.18751rem solid #c9c9c9;
+}
 .tabs > li[class~="active"],
 .tabs > li:hover {
     cursor: pointer;
