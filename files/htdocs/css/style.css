@@ -815,7 +815,7 @@ background: #617486;
 .tabs > li {
     display: inline-block;
     padding: 0.9rem 0rem;
-    border-bottom: 0.18751rem solid #C9C9C9;
+    border-bottom: 0.18751rem solid rgba(0, 0, 0, 0);
 }
 
 .cbi-tabmenu > li > a,
