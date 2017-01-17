@@ -613,7 +613,7 @@ fieldset {
     font-family: inherit;
 
     min-width: inherit;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: hidden;
 
     border-radius: 0;
