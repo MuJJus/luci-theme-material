@@ -852,6 +852,9 @@ background: #617486;
     background-color: white;
 }
 
+.cbi-section-node {
+    overflow-x: auto;
+}
 
 .cbi-section-node-tabbed {
     padding: 0;
