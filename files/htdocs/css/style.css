@@ -1747,21 +1747,21 @@ body.lang_pl.node-main-login .cbi-value-title {
         min-width: 25rem;
     }
 }
-::-webkit-scrollbar
+#maincontent ::-webkit-scrollbar
 {
 	width: 8px;
 	height: 8px;
 }
-::-webkit-scrollbar-thumb
+#maincontent ::-webkit-scrollbar-thumb
 {
 	border-radius: 8px;
 	background: #D8D8D8;
 }
-::-webkit-scrollbar-thumb:hover
+#maincontent ::-webkit-scrollbar-thumb:hover
 {
 	background: #CCC;
 }
-::-webkit-scrollbar-thumb:active
+#maincontent ::-webkit-scrollbar-thumb:active
 {
 	background: #606060;
 }
