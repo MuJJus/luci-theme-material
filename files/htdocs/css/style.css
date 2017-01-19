@@ -962,12 +962,12 @@ background: #617486;
 /* input */
 .cbi-value input[type="password"],
 .cbi-value input[type="text"] {
-    min-width: 14rem;
+    min-width: 11rem;
 }
 
 /* select */
 .cbi-value-field .cbi-input-select {
-    min-width: 15rem;
+    min-width: 11rem;
 }
 
 .ifacebadge {
@@ -1614,14 +1614,14 @@ body.lang_pl.node-main-login .cbi-value-title {
     }
 
     .cbi-value-description {
-        max-width: 16rem;
+        max-width: 11rem;
     }
 
     .cbi-value > .cbi-value-field {
         display: inline-block;
         margin-top: 1rem;
         margin-bottom: 0.5rem;
-        max-width: 16rem;
+        max-width: 11rem;
     }
 
     .cbi-tabmenu > li, .tabs > li {
@@ -1673,7 +1673,7 @@ body.lang_pl.node-main-login .cbi-value-title {
     }
 
     select {
-        width: 15rem;
+        width: 11rem;
     }
 
     .mobile-hide {
