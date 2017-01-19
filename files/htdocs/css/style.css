@@ -962,7 +962,7 @@ background: #617486;
 /* input */
 .cbi-value input[type="password"],
 .cbi-value input[type="text"] {
-    min-width: 15rem;
+    min-width: 14rem;
 }
 
 /* select */
@@ -1606,7 +1606,6 @@ body.lang_pl.node-main-login .cbi-value-title {
     }
 
     .cbi-value-title {
-        width: 100%;
         min-width: 0rem !important;
         display: block;
         margin-top: 1rem;
@@ -1614,12 +1613,15 @@ body.lang_pl.node-main-login .cbi-value-title {
         text-align: left;
     }
 
-    .cbi-value-field, .cbi-value-description {
-        width: 100%;
+    .cbi-value-description {
+        max-width: 16rem;
     }
 
     .cbi-value > .cbi-value-field {
         display: inline-block;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        max-width: 16rem;
     }
 
     .cbi-tabmenu > li, .tabs > li {
@@ -1668,6 +1670,10 @@ body.lang_pl.node-main-login .cbi-value-title {
     select,
     input {
         font-size: 0.9rem;
+    }
+
+    select {
+        width: 15rem;
     }
 
     .mobile-hide {
@@ -1764,4 +1770,7 @@ body.lang_pl.node-main-login .cbi-value-title {
 #maincontent ::-webkit-scrollbar-thumb:active
 {
 	background: #606060;
+}
+#_systime-clock-status {
+        display: block;
 }
