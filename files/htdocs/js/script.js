@@ -206,6 +206,8 @@
             that.css("display", "none");
         }
     });
+	// show switch port status
+	$(".node-network-vlan .cbi-section-table-descr").css("display", "");
 
 
     $(".main-right").focus();
